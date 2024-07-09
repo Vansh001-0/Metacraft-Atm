@@ -21,32 +21,31 @@ Overall, this project is a great learning tool for understanding how to build de
 
 ### How to get 
 
-* Opent the vscode terminal and write git clone 
+* Opent the vscode terminal and write git clone https://github.com/Vansh001-0/Metacraft-Atm.git
   
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Open VS code in Metacraft-Atm.
+* open terminal and write tese comand.
+
+In first terminal write 
 ```
-code blocks for commands
+npm i 
 ```
-
-## Help
-
-Any advise for common problems or issues.
+In second terminal write 
 ```
-command to run if program contains helper info
+npx hardhat node
 ```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+In third terminal write 
+```
+npx hardhat run --network localhost scripts/deploy.js
+```
+Now come back to first terminal and write 
+```
+npm run dev
+```
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License.
